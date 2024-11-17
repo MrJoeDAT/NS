@@ -50,11 +50,11 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-		  <li><a href="custMenu.html">Customer Menu</a></li>
+		  <li><a href="custMenu.html" class="active">Customer Menu</a></li>
           <li><a href="sales.html">Sales</a></li>
           <li><a href="inventory.html">Inventory</a></li>
           <li><a href="expenses.html">Expenses</a></li>
-          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="menu.html">Menu</a></li>
 		  <li><a href="staff.html">Staff</a></li>
 		  <li><a href="reports.html">Reports</a></li>
 		  <li><a href="https://mrjoedat.github.io/JoeDat/businessIntelligence.html">JoeDat</a></li>
@@ -87,8 +87,8 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/menu_title.jpg);">
       <div class="container position-relative">
-        <h1>Menu Hub</h1>
-        <p>Welcome to Nikki's menu hub, where every flavor comes to life in data!</p>
+        <h1>Menu for Customers</h1>
+        <p>Welcome to Nikki Spice Menu Page.</p>
         <!-- <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -110,15 +110,18 @@
             </a>
           </div>
           <div class="col-lg-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="content-title mb-4">The Menu Dashboard</h2>
+            <h2 class="content-title mb-4">What’s on the Menu?</h2>
             <p class="mb-4">
-              With Nikki Spice’s Menu Dashboard, Nikki can stay in tune with her customers’ favorite dishes and keep her menu fresh, engaging, and profitable!
+              At Nikki Spice Restaurant, we believe great dining starts with easy access to information. That’s why our Menu Dashboard is designed to offer you a seamless and interactive way to explore our delicious dishes.<br><br>Our dashboard isn’t just a list of items; it’s your personalized guide to all things Nikki Spice! Here’s what you’ll find:<br>
             </p>
             <ul class="list-unstyled list-check">
-              <li>Monthly Sales and Revenue Insights</li>
-              <li>Sold Dishes</li>
-              <li>Revenue per Dish</li>
-			  <li>Detailed Menu Table</li>
+              <li>Food Name & Price</li>
+              <li>Dish Category</li>
+              <li>Food Rating</li>
+			  <li>Calories & Allergen Info</li>
+			  <li>Spice Level</li>
+			  <li>Ingredients & Description</li>
+			  <li>Availability</li>
             </ul>
 
             <p><a class="btn-cta">More Details Below!</a></p>
@@ -217,8 +220,8 @@
 <section class="dashboard-section section" id="dashboard">
   <div class="container section-title" data-aos="fade-up">
     <h2>Menu Dashboard</h2>
-    <p>Get insights into Nikki's Menu at her Restaurant.</p>
-	<p>(October 2024)</p>
+    <p>Toggle FullScreen at the Bottom Left of the Dashboard</p>
+	<p>(November 2024)</p>
   </div>
 
   <div class="content">
@@ -226,7 +229,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-10 dashboard-iframe-container">
           <!-- Power BI Embedded Dashboard -->
-          <iframe title="salesTransaction" class="responsive-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiYmU3YjdhMWMtOWZlMy00ZWU5LWJiNjAtODE0OGI5ZDE3ODA4IiwidCI6IjkzNmU0OWM0LTJiOTAtNDE2Zi04OWJmLTk3MjVmYWNiNzIxNiJ9" frameborder="0" allowFullScreen="true"></iframe>
+          <iframe title="salesTransaction" class="responsive-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiZjU0MTdhOGItZDIwZC00ODdjLWJjZTUtZTQ3YmYwNzE1N2Y5IiwidCI6IjkzNmU0OWM0LTJiOTAtNDE2Zi04OWJmLTk3MjVmYWNiNzIxNiJ9" frameborder="0" allowFullScreen="true"></iframe>
         </div>
       </div>
     </div>
@@ -236,99 +239,110 @@
 
     <!-- Services Section -->
     <section id="services" class="services section">
-
+	
+	      <!-- Testimonials Section -->
+    <section class="testimonials-12 testimonials section" id="testimonials">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>More Information on Visuals</h2>
-        <p>Tip: Take your time to explore the dashboard above.</p>
+        <h2>More Info on Visuals</h2>
+        <p>Tip: Take your time to explore the Dashboard.</p>
       </div><!-- End Section Title -->
-      <div class="content">
-        <div class="container">
-          <div class="row g-0">
-            <div class="col-lg-3 col-md-6">
-              <div class="service-item">
-                <span class="number">01</span>
-                <div class="service-item-icon">
-				  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-					<!-- Coin Circle -->
-					<circle cx="50" cy="50" r="40" fill="currentColor" />
-					<!-- Naira Symbol -->
-					<text x="50%" y="50%" font-size="50" font-family="impact, sans-serif" fill="white" text-anchor="middle" dy=".3em">₦</text>
-				  </svg>
-				</div>
 
-                <div class="service-item-content">
-                  <h3 class="service-heading">Monthly Sales and Revenue Insights</h3>
+      <div class="testimonial-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <!--<img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial author">-->
+                <blockquote>
                   <p>
-                    This feature gives Nikki a bird’s-eye view of her total food sold and revenue for each month, showing her exactly how much her menu contributes to her revenue. Tracking this monthly allows her to spot trends, identify popular months, and celebrate milestones in food sales.
+                    Explore dishes that suit both your cravings and your budget.
                   </p>
-                </div>
+                </blockquote>
+                <p class="client-name">Food Name & Price</p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="service-item">
-                <span class="number">02</span>
-                <div class="service-item-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" x="0" y="0" viewBox="0 0 513.089 513.089" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
-                    <g>
-                      <path d="M194.209 386.877a7.497 7.497 0 0 0-9.15 5.363 75.07 75.07 0 0 0-2.428 18.947c0 13.789 3.615 27 10.454 38.204a7.494 7.494 0 0 0 10.308 2.495 7.5 7.5 0 0 0 2.494-10.309c-5.401-8.851-8.257-19.359-8.257-30.39a60.09 60.09 0 0 1 1.941-15.16 7.497 7.497 0 0 0-5.362-9.15z" fill="currentColor" opacity="1" data-original="currentColor"></path>
-                      <path d="M382.56 0h-27.319c-12.654 0-25.236 3.119-36.386 9.021a7.5 7.5 0 0 0 7.018 13.258c9.124-4.83 19.005-7.278 29.368-7.278h27.222v12.022c0 34.679-28.213 62.892-62.892 62.892h-27.222V77.893c0-13.309 4.12-26.038 11.914-36.811a7.5 7.5 0 0 0-12.153-8.793c-9.657 13.347-14.762 29.117-14.762 45.604V119.154a88.294 88.294 0 0 1-14.296 48.23l-20.501 31.543a46.65 46.65 0 0 0-9.615-13.916l-1.273-1.273v-14.053c0-21.604-9.58-41.872-26.284-55.608a7.5 7.5 0 0 0-9.528 11.586c13.226 10.876 20.812 26.922 20.812 44.022v9.66h-29.069c-31.412 0-56.968-25.556-56.968-56.968v-9.66h29.069c3.454 0 6.976.329 10.467.977a7.5 7.5 0 0 0 2.738-14.748 72.57 72.57 0 0 0-13.205-1.229h-31.883c-6.72 0-12.187 5.467-12.187 12.186v12.474c0 39.684 32.284 71.968 71.968 71.968h33.463l1.273 1.273c5.979 5.979 9.271 13.927 9.271 22.381v98.306a79.003 79.003 0 0 0-21.446 5.114c-4.152-2.798-9.597-3.045-13.983-.509-30.558 17.671-49.541 52.263-49.541 90.277 0 56.188 41.481 101.901 92.47 101.901s92.47-45.713 92.47-101.901c0-.237-.004-.473-.009-.709l-.005-.334a7.5 7.5 0 0 0-7.499-7.433h-.068a7.5 7.5 0 0 0-7.433 7.567l.014.909c0 47.917-34.753 86.901-77.47 86.901s-77.47-38.984-77.47-86.901c0-32.212 15.656-61.449 40.948-76.643l40.182 34.094c5.225 4.433 13.1 4.099 17.929-.761l25.512-25.668c11.649 10.022 20.473 23.408 25.562 38.809a7.496 7.496 0 0 0 9.475 4.768 7.5 7.5 0 0 0 4.768-9.474c-6.15-18.613-17.027-34.756-31.454-46.681-4.011-3.317-9.358-3.923-13.824-1.93-10.53-6.377-22.136-10.243-34.128-11.384v-29.695h18.365c25.013 0 45.362-20.35 45.362-45.362v-7.928c0-6.115-4.975-11.089-11.089-11.089h-22.276c-11.667 0-22.318 4.429-30.362 11.693v-13.713l29.028-44.665a103.263 103.263 0 0 0 16.72-56.404v-14.239h27.222c42.949 0 77.892-34.942 77.892-77.892v-12.12C397.462 6.685 390.777 0 382.56 0zM251.211 356.136l-27.468-23.306a63.694 63.694 0 0 1 15.358-1.884c10.366 0 20.534 2.525 29.851 7.34zm25.752-118.894h18.365v4.017c0 16.742-13.62 30.362-30.362 30.362h-18.365v-4.017c0-16.741 13.62-30.362 30.362-30.362z" fill="currentColor" opacity="1" data-original="currentColor"></path>
-                    </g>
-                  </svg>
-                </div>
-                <div class="service-item-content">
-                  <h3 class="service-heading">Sold Dishes</h3>
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <!--<img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial author">-->
+                <blockquote>
                   <p>
-                    Curious which dishes are making the most impact? This section visualizes sales counts for each food item available. Whether it’s the irresistible jollof rice or fan-favorite pepper soup, Nikki can see what’s selling well and what might need a little extra promotion.
+                    From flavorful mains to hearty soups and irresistible sides, we’ve got something for everyone.
                   </p>
-                </div>
+                </blockquote>
+                <p class="client-name">Dish Category</p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="service-item">
-                <span class="number">03</span>
-                <div class="service-item-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" x="0" y="0" viewBox="0 0 511.67 511.67" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
-                    <g>
-                      <path d="M492.96 296.401v-59.276c0-63.338-24.665-122.886-69.452-167.673C378.721 24.666 319.174 0 255.835 0c-54.517 0-107.757 18.967-149.914 53.407a7.5 7.5 0 1 0 9.491 11.616C154.896 32.765 204.767 15 255.835 15c59.332 0 115.112 23.105 157.066 65.059 41.953 41.954 65.059 97.734 65.059 157.066v58.7h-15v-58.7C462.96 122.916 370.044 30 255.835 30S48.71 122.916 48.71 237.125v58.7h-15v-58.7c0-56.142 21.01-109.737 59.158-150.913a7.502 7.502 0 0 0-11.004-10.195C41.139 119.975 18.71 177.19 18.71 237.125v59.276c-10.029 2.3-17.535 11.291-17.535 22.008v5.81c0 10.194 6.791 18.828 16.085 21.627l16.782 99.17c6.535 38.622 39.71 66.654 78.882 66.654h285.822c39.172 0 72.347-28.032 78.882-66.654l16.782-99.17c9.294-2.798 16.085-11.432 16.085-21.627v-5.81c0-10.717-7.506-19.708-17.535-22.008zM63.71 237.125C63.71 131.187 149.896 45 255.835 45S447.96 131.187 447.96 237.125v58.7h-27.888a64.77 64.77 0 0 0 7.259-29.747c0-9.561-2.046-18.787-6.081-27.423a7.5 7.5 0 0 0-13.59 6.35c3.1 6.633 4.671 13.723 4.671 21.073a49.851 49.851 0 0 1-9.875 29.747h-82.073a68.421 68.421 0 0 0 3.912-22.766l-.003-.369a10.737 10.737 0 0 0 2.441-7.707l-.074-.952a81.022 81.022 0 0 0-6.053-25.058c9.161-14.126 24.883-22.763 41.856-22.763a49.676 49.676 0 0 1 26.83 7.844 7.5 7.5 0 0 0 8.086-12.634 64.65 64.65 0 0 0-34.916-10.21c-19.407 0-37.547 8.686-49.744 23.261a81.08 81.08 0 0 0-25.89-24.171l-7.325-4.298v-19.86c0-6.111-4.972-11.083-11.083-11.083h-24.17c-6.111 0-11.083 4.972-11.083 11.083v19.86l-7.325 4.298a81.067 81.067 0 0 0-24.083 21.633l-21.606-40.574a68.923 68.923 0 0 0-37.588-32.526 39.21 39.21 0 0 0-31.641 2.285 39.215 39.215 0 0 0-19.556 24.977 68.922 68.922 0 0 0 6.006 49.343l37.481 70.388H63.71zm88.14 58.7-41.235-77.438a53.95 53.95 0 0 1-4.701-38.625c1.687-6.691 5.971-12.162 12.061-15.405 6.091-3.244 13.022-3.745 19.516-1.409a53.936 53.936 0 0 1 28.384 23.614L146.29 196.99a7.5 7.5 0 0 0 7.051 13.241l19.627-10.451 13.619 25.575-19.627 10.451a7.5 7.5 0 0 0 7.051 13.241l17.809-9.483a81.015 81.015 0 0 0-5.807 24.466l-.074.961a10.774 10.774 0 0 0 1.468 6.319c-.018.6-.03 1.185-.03 1.752a68.427 68.427 0 0 0 3.914 22.766H151.85zm116.357-89.059 11.029 6.472a66.163 66.163 0 0 1 31.323 43.794l-23.74-16.479a13.027 13.027 0 0 0-17.511 2.36l-12.974 15.524-12.974-15.525c-2.59-3.099-6.283-4.719-10.029-4.719-2.584 0-5.193.771-7.481 2.359l-23.74 16.478a66.163 66.163 0 0 1 31.323-43.794l11.029-6.472a7.5 7.5 0 0 0 3.704-6.469v-20.238h16.336v20.238a7.504 7.504 0 0 0 3.705 6.471zm-60.729 89.059a53.472 53.472 0 0 1-5.062-20.774c.171-.105.342-.21.509-.326l30.046-20.854 15.047 18.007c2.065 2.471 5.097 3.888 8.317 3.888s6.252-1.417 8.317-3.888v-.001l15.047-18.006 29.574 20.527a53.458 53.458 0 0 1-5.081 21.428h-96.714zm288.017 28.394c0 4.182-3.402 7.584-7.584 7.584H101.084c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h377.952l-5.751 33.987h-14.299c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h11.76l-7.907 46.723a64.83 64.83 0 0 1-64.093 54.157H112.924a64.83 64.83 0 0 1-64.093-54.157l-7.907-46.723h11.76c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5H38.386l-5.751-33.987h36.487c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5H23.759c-4.182 0-7.584-3.402-7.584-7.584v-5.81c0-4.182 3.402-7.584 7.584-7.584h464.152c4.182 0 7.584 3.402 7.584 7.584z" fill="currentColor" opacity="1" data-original="currentColor"></path>
-                      <path d="M246.338 395.79h21.993c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.993c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5zM174.455 395.79h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5zM102.573 395.79h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994a7.5 7.5 0 0 0 0 15zM315.221 395.79h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5zM387.103 395.79h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5zM246.338 474.186h21.993c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.993c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5zM174.455 474.186h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5zM102.573 474.186h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994a7.5 7.5 0 0 0 0 15zM337.215 459.186h-21.994c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h21.994a7.5 7.5 0 0 0 0-15zM387.103 474.186h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5zM273.606 430.229a7.5 7.5 0 0 0 7.5 7.5H303.1c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994a7.5 7.5 0 0 0-7.5 7.5zM201.725 430.229a7.5 7.5 0 0 0 7.5 7.5h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994a7.5 7.5 0 0 0-7.5 7.5zM129.843 430.229a7.5 7.5 0 0 0 7.5 7.5h21.993c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.993a7.5 7.5 0 0 0-7.5 7.5zM87.454 422.729H67.46c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h19.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5zM342.49 430.229a7.5 7.5 0 0 0 7.5 7.5h21.993c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5H349.99a7.5 7.5 0 0 0-7.5 7.5zM414.372 430.229a7.5 7.5 0 0 0 7.5 7.5h21.994c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-21.994a7.5 7.5 0 0 0-7.5 7.5z" fill="currentColor" opacity="1" data-original="currentColor"></path>
-                    </g>
-                  </svg>
-                </div>
-                <div class="service-item-content">
-                  <h3 class="service-heading">Revenue per Dish</h3>
+			<div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <!--<img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial author">-->
+                <blockquote>
                   <p>
-                    Here, Nikki can view the total revenue generated for each individual food item. This insight allows her to focus on high-revenue dishes and promote them effectively, ensuring her menu aligns with both customer tastes and business goals.
+                    Check out what other customers love. Every rating is proof of our passion for good food!
                   </p>
-                </div>
+                </blockquote>
+                <p class="client-name">Food Rating</p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="service-item">
-                <span class="number">04</span>
-                <div class="service-item-icon">
-				  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-					<path d="M10,70 C20,60, 40,80, 50,60 C60,40, 80,40, 90,20" 
-						  fill="none" 
-						  stroke="currentColor" 
-						  stroke-width="4" />
-					<circle cx="10" cy="70" r="4" fill="currentColor" />
-					<circle cx="50" cy="60" r="4" fill="currentColor" />
-					<circle cx="90" cy="20" r="4" fill="currentColor" />
-				  </svg>
-				</div>
-                <div class="service-item-content">
-                  <h3 class="service-heading">Detailed Menu Table</h3>
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <!--<img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial author">-->
+                <blockquote>
                   <p>
-                    This table lists every dish with its name, category (main, side, soup), sales count, preparation cost, selling price, and monthly revenue. This breakdown helps Nikki see each dish’s profitability at a glance, so she can adjust prices, refine recipes, or highlight specific items based on their performance.
+                    Don’t wait too long for your cravings, see how quickly your favorite dish will be served.
                   </p>
-                </div>
+                </blockquote>
+                <p class="client-name">Ready Time</p>
+              </div>
+            </div>
+			<div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <!--<img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial author">-->
+                <blockquote>
+                  <p>
+                    For those mindful of health or dietary restrictions, we’ve made it easy for you to make informed choices.
+                  </p>
+                </blockquote>
+                <p class="client-name">Calories & Allergen Info</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <!--<img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial author">-->
+                <blockquote>
+                  <p>
+                    Whether you like a little heat or no spice at all, we’ve got options tailored just for you.
+                  </p>
+                </blockquote>
+                <p class="client-name">Spice Level</p>
+              </div>
+            </div>
+			<div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <!--<img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial author">-->
+                <blockquote>
+                  <p>
+                    Want to know what’s inside your favorite dish? We list every detail, so you know exactly what to expect.
+                  </p>
+                </blockquote>
+                <p class="client-name">Ingredients & Description</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <!--<img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial author">-->
+                <blockquote>
+                  <p>
+                    Curious if your go-to dish is ready to order? Our dashboard shows live availability status!
+                  </p>
+                </blockquote>
+                <p class="client-name">Availability</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- /Services Section -->
+    </section><!-- /Testimonials Section -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section light-background">
@@ -337,16 +351,16 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6">
-              <h3>Power at Her Fingertips</h3>
+              <h3>Menu at Customers Fingertips</h3>
               <p class="opacity-50">
-                With her Menu Dashboard, Nikki can create a well-loved menu that reflects customer favorites, maximizes revenue, and keeps her business running smoothly.
-				<br>With this level of flexibility, Nikki’s Menu Hub isn’t just a collection of charts, it’s a tool she can rely on to steer her business toward success.
+                The Menu Dashboard is more than just a digital menu; it’s a personalized dining experience. It combines essential details with interactive features.
+				<br>Dive into the Nikki Spice Menu Dashboard today and discover why our customers love dining with us. Your next meal is just a few clicks away!<br><br>Other parts of the dashboard are also customizable.<br>Tilt the screen if you are using mobile.
               </p>
             </div>
              <div class="col-lg-6">
 			 <p class="opacity-50">
                 <br><br>P.S: Toggle fullscreen at the bottom right of the dashboard.
-				<br>At the top of the dashboard, Nikki can use two slicers to explore her menu data in detail. The Dish Category slicer lets her filter by main dishes, sides, or soups, while the Food Name slicer allows her to zoom in on specific items. This flexibility means Nikki can dig into the numbers on any dish she wants, whenever she wants.<br>Other parts of the dashboard are also customizable.<br>Tilt the screen if you are using mobile.
+				<br>At the center of the dashboard, customers can use three slicers to explore the menu data in detail. The Dish Category slicer lets her filter by main dishes, sides, or soups, while the Food Name slicer allows customers to zoom in on specific items, and the third is the Availability slicer. This flexibility means Customers can dig deep on any dish they want, whenever and whereever they want.
               </p>
               <!--<form action="forms/newsletter.php" class="form-subscribe php-email-form">
                 <div class="form-group d-flex align-items-stretch">
